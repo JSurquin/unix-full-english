@@ -63,7 +63,8 @@ pnpm dev
 |--------|-------------|
 | `pnpm dev` | Start dev server and open the deck |
 | `pnpm build` | Static build → `dist/` |
-| `pnpm export` | Export slides (PDF) |
+| `pnpm export` | Export slides to PDF, commit and push `public/slides.pdf` |
+| `pnpm export:only` | Export PDF locally without git commit/push |
 | `pnpm screenshot` | Export slides as PNG |
 | `pnpm lint` | Run ESLint |
 

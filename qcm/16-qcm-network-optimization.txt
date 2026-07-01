@@ -1,0 +1,260 @@
+================================================================================
+MCQ - Network optimization
+Slide module: - (no matching module in this deck) · Scope: not_in_scope
+Not in this deck
+Instructions: For each question, enter your answer (A, B, C, or D)
+================================================================================
+
+Question 1: What does “optimizing the network” on Linux mean?
+
+A) Making the Internet faster
+B) Installing more network cards
+C) Increasing Internet connection speed
+D) Making the host more efficient at handling network traffic
+
+Your answer: ___
+
+================================================================================
+
+Question 2: What is the main tool to change TCP/IP parameters?
+
+A) netstat
+B) sysctl
+C) ifconfig
+D) ping
+
+Your answer: ___
+
+================================================================================
+
+Question 3: Which TCP congestion control algorithm is recommended in 2025?
+
+A) Tahoe
+B) Reno
+C) Vegas
+D) BBR
+
+Your answer: ___
+
+================================================================================
+
+Question 4: Which tool adjusts network interface parameters?
+
+A) iptables
+B) netcat
+C) ethtool
+D) sysctl
+
+Your answer: ___
+
+================================================================================
+
+Question 5: What is bufferbloat?
+
+A) A network virus
+B) A security protocol
+C) Excessive latency caused by oversized buffers
+D) A type of firewall
+
+Your answer: ___
+
+================================================================================
+
+Question 6: Which queuing discipline is modern and often recommended?
+
+A) red
+B) fq_codel
+C) bfifo
+D) pfifo
+
+Your answer: ___
+
+================================================================================
+
+Question 7: Which modern firewall stack is recommended in 2025?
+
+A) nftables
+B) iptables (classic)
+C) firewalld only
+D) ipchains
+
+Your answer: ___
+
+================================================================================
+
+Question 8: Which Docker network mode usually offers the best performance?
+
+A) bridge (default)
+B) overlay
+C) none
+D) host
+
+Your answer: ___
+
+================================================================================
+
+Question 9: Which tool tests network throughput between two hosts?
+
+A) wget
+B) traceroute
+C) ping
+D) iperf3
+
+Your answer: ___
+
+================================================================================
+
+Question 10: Which command replaces netstat on modern systems?
+
+A) ss
+B) route
+C) ip
+D) ifconfig
+
+Your answer: ___
+
+================================================================================
+
+Question 11: What does TSO mean in the context of network offloading?
+
+A) Total System Offload
+B) TCP Socket Optimization
+C) TCP Segmentation Offload
+D) Transport Security Offload
+
+Your answer: ___
+
+================================================================================
+
+Question 12: Which net.core.somaxconn value is recommended for a high-traffic web server?
+
+A) 4096 or higher
+B) 512
+C) 128 (default)
+D) 50
+
+Your answer: ___
+
+================================================================================
+
+Question 13: Which MTU is used for jumbo frames?
+
+A) 65535
+B) 1450
+C) 1500 (standard)
+D) 9000
+
+Your answer: ___
+
+================================================================================
+
+Question 14: What does the tc command do on Linux?
+
+A) Control traffic and network queuing
+B) Manage cron jobs
+C) Create containers
+D) Test connectivity
+
+Your answer: ___
+
+================================================================================
+
+Question 15: What is the first step before optimizing a system?
+
+A) Install new tools
+B) Apply every optimization you find
+C) Measure current performance
+D) Reboot the server
+
+Your answer: ___
+
+================================================================================
+
+Question 16: Which sysctl parameter allows reusing sockets in TIME_WAIT?
+
+A) net.ipv4.tcp_socket_reuse
+B) net.ipv4.tcp_recycle
+C) net.ipv4.tcp_reuse
+D) net.ipv4.tcp_tw_reuse
+
+Your answer: ___
+
+================================================================================
+
+Question 17: Which network backend does Podman use by default in 2025?
+
+A) CNI
+B) netavark
+C) bridge
+D) slirp4netns
+
+Your answer: ___
+
+================================================================================
+
+Question 18: For an NFS storage server, which parameter matters most?
+
+A) Minimum latency only
+B) Data compression
+C) Large TCP window for maximum throughput
+D) Mandatory encryption
+
+Your answer: ___
+
+================================================================================
+
+Question 19: Which tool shows bandwidth usage in real time?
+
+A) ping
+B) iftop
+C) htop
+D) top
+
+Your answer: ___
+
+================================================================================
+
+Question 20: What is the right approach to network optimization?
+
+A) Apply every setting found on the Internet
+B) Optimize without measuring; it always works
+C) Measure, optimize, re-measure
+D) Never change default parameters
+
+Your answer: ___
+
+================================================================================
+END OF NETWORK OPTIMIZATION MCQ (BONUS)
+================================================================================
+
+Scoring:
+- 18–20/20: Expert! ⭐⭐⭐⭐
+- 15–17/20: Excellent! ⭐⭐⭐
+- 12–14/20: Very good! ⭐⭐
+- 10–11/20: Good ⭐
+- Below 10: Review the module
+
+================================================================================
+ANSWER KEY
+================================================================================
+
+1. D - Making the host more efficient at handling network traffic
+2. B - sysctl
+3. D - BBR
+4. C - ethtool
+5. C - Excessive latency caused by oversized buffers
+6. B - fq_codel
+7. A - nftables
+8. D - host
+9. D - iperf3
+10. A - ss
+11. C - TCP Segmentation Offload
+12. A - 4096 or higher
+13. D - 9000
+14. A - Control traffic and network queuing
+15. C - Measure current performance
+16. D - net.ipv4.tcp_tw_reuse
+17. B - netavark
+18. C - Large TCP window for maximum throughput
+19. B - iftop
+20. C - Measure, optimize, re-measure

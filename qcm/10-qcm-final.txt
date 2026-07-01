@@ -1,0 +1,619 @@
+================================================================================
+MCQ - Final mixed exam (50 Q)
+Slide module: - (no matching module in this deck) · Scope: not_in_scope
+Spans topics outside the 3-day track
+Instructions: For each question, enter your answer (A, B, C, or D)
+================================================================================
+
+Question 1: Which command shows the current directory?
+
+A) cd
+B) ls
+C) pwd
+D) whereis
+
+Your answer: ___
+
+================================================================================
+
+Question 2: Which permission is represented by the digit 7 in octal?
+
+A) rwx
+B) r-x
+C) rw-
+D) r--
+
+Your answer: ___
+
+================================================================================
+
+Question 3: Which user has UID 0?
+
+A) root
+B) admin
+C) sudo
+D) system
+
+Your answer: ___
+
+================================================================================
+
+Question 4: Which command changes a file’s owner?
+
+A) chown
+B) chgrp
+C) usermod
+D) chmod
+
+Your answer: ___
+
+================================================================================
+
+Question 5: Which signal does the kill command send by default?
+
+A) SIGHUP (1)
+B) SIGTERM (15)
+C) SIGKILL (9)
+D) SIGSTOP (19)
+
+Your answer: ___
+
+================================================================================
+
+Question 6: Which file contains encrypted passwords?
+
+A) /etc/passwd
+B) /etc/security
+C) /etc/group
+D) /etc/shadow
+
+Your answer: ___
+
+================================================================================
+
+Question 7: Which command shows processes in real time?
+
+A) kill
+B) top
+C) pgrep
+D) ps
+
+Your answer: ___
+
+================================================================================
+
+Question 8: What is the PID of the first system process?
+
+A) 0
+B) 1
+C) 10
+D) 100
+
+Your answer: ___
+
+================================================================================
+
+Question 9: Which command mounts a filesystem?
+
+A) df
+B) umount
+C) fsck
+D) mount
+
+Your answer: ___
+
+================================================================================
+
+Question 10: Where are automatic mount configurations for boot stored?
+
+A) /etc/filesystems
+B) /boot/mount.conf
+C) /etc/mount
+D) /etc/fstab
+
+Your answer: ___
+
+================================================================================
+
+Question 11: Which command shows disk usage by directory?
+
+A) du
+B) lsblk
+C) df
+D) fdisk
+
+Your answer: ___
+
+================================================================================
+
+Question 12: Which IP address is reserved for localhost?
+
+A) 192.168.1.1
+B) 127.0.0.1
+C) 10.0.0.1
+D) 0.0.0.0
+
+Your answer: ___
+
+================================================================================
+
+Question 13: Which port does SSH use by default?
+
+A) 21
+B) 23
+C) 22
+D) 80
+
+Your answer: ___
+
+================================================================================
+
+Question 14: Which command shows active network connections?
+
+A) route
+B) ping
+C) ifconfig
+D) netstat or ss
+
+Your answer: ___
+
+================================================================================
+
+Question 15: Which package manager is used on Debian/Ubuntu?
+
+A) yum
+B) dnf
+C) pacman
+D) apt
+
+Your answer: ___
+
+================================================================================
+
+Question 16: Which command updates the list of available packages?
+
+A) apt search
+B) apt upgrade
+C) apt update
+D) apt install
+
+Your answer: ___
+
+================================================================================
+
+Question 17: Which line of a bash script contains the shebang?
+
+A) In a separate file
+B) The first line
+C) The last line
+D) Anywhere in the file
+
+Your answer: ___
+
+================================================================================
+
+Question 18: What is the correct syntax for a bash for loop?
+
+A) for (i=1; i<=5; i++) { echo $i }
+B) for i = 1 to 5 do echo $i end
+C) foreach i in 1..5: echo $i
+D) for i in {1..5}; do echo $i; done
+
+Your answer: ___
+
+================================================================================
+
+Question 19: Which command schedules recurring tasks?
+
+A) at
+B) systemd
+C) timer
+D) cron
+
+Your answer: ___
+
+================================================================================
+
+Question 20: In a crontab, what does 0 2 * * * mean?
+
+A) At 2:00 a.m. every day
+B) Every 2 days at midnight
+C) On the 2nd of each month
+D) Every 2 minutes
+
+Your answer: ___
+
+================================================================================
+
+Question 21: Where are system logs usually stored?
+
+A) /etc/log
+B) /log
+C) /var/log
+D) /home/log
+
+Your answer: ___
+
+================================================================================
+
+Question 22: Which command shows systemd logs in real time?
+
+A) journalctl -f
+B) logwatch
+C) dmesg -w
+D) tail -f /var/log/syslog
+
+Your answer: ___
+
+================================================================================
+
+Question 23: What is SELinux?
+
+A) A text editor
+B) A network protocol
+C) A package manager
+D) A mandatory access control (MAC) system
+
+Your answer: ___
+
+================================================================================
+
+Question 24: Which command temporarily disables SELinux?
+
+A) selinux disable
+B) chmod 000 /etc/selinux
+C) setenforce 0
+D) systemctl stop selinux
+
+Your answer: ___
+
+================================================================================
+
+Question 25: Which tool blocks IPs after several failed login attempts?
+
+A) firewalld
+B) fail2ban
+C) ufw
+D) iptables
+
+Your answer: ___
+
+================================================================================
+
+Question 26: Which protocol transfers files securely?
+
+A) FTP
+B) HTTP
+C) SCP or SFTP
+D) Telnet
+
+Your answer: ___
+
+================================================================================
+
+Question 27: Where are SSH keys stored by default?
+
+A) /var/ssh/
+B) /etc/ssh/
+C) ~/.ssh/
+D) /home/ssh/
+
+Your answer: ___
+
+================================================================================
+
+Question 28: Which command generates an SSH key pair?
+
+A) ssh-gen
+B) ssh-keygen
+C) ssh-key
+D) keygen
+
+Your answer: ___
+
+================================================================================
+
+Question 29: Which web server is known for performance and low memory use?
+
+A) Tomcat
+B) Nginx
+C) IIS
+D) Apache
+
+Your answer: ___
+
+================================================================================
+
+Question 30: Where is Nginx configuration stored on Debian/Ubuntu?
+
+A) /usr/local/nginx/
+B) /etc/nginx/
+C) /var/www/nginx/
+D) /etc/apache2/
+
+Your answer: ___
+
+================================================================================
+
+Question 31: Which command tests Nginx configuration without restarting?
+
+A) nginx test
+B) nginx --check
+C) nginx -t
+D) systemctl test nginx
+
+Your answer: ___
+
+================================================================================
+
+Question 32: Which protocol is used to obtain free certificates with Let's Encrypt?
+
+A) ACME
+B) SSL
+C) FTP
+D) HTTP
+
+Your answer: ___
+
+================================================================================
+
+Question 33: Which command backs up a MySQL database?
+
+A) mysql-save
+B) mysql-backup
+C) mysqldump
+D) mysqlexport
+
+Your answer: ___
+
+================================================================================
+
+Question 34: What is the difference between systemctl start and systemctl enable?
+
+A) enable starts now, start starts at boot
+B) No difference
+C) start starts now, enable starts at boot
+D) start is permanent, enable is temporary
+
+Your answer: ___
+
+================================================================================
+
+Question 35: Which file contains the main systemd configuration?
+
+A) /etc/init.d/systemd
+B) /etc/systemd/system.conf
+C) /etc/systemd/systemd.conf
+D) /lib/systemd/systemd.conf
+
+Your answer: ___
+
+================================================================================
+
+Question 36: Which command lists services that have failed?
+
+A) systemctl list-failed
+B) systemctl failed
+C) systemctl status --failed
+D) systemctl --failed
+
+Your answer: ___
+
+================================================================================
+
+Question 37: What does LVM stand for?
+
+A) Local Virtual Machine
+B) Linux Volume Management
+C) Logical Volume Manager
+D) Linux Virtual Memory
+
+Your answer: ___
+
+================================================================================
+
+Question 38: Which command creates a symbolic link?
+
+A) mklink
+B) ln -s
+C) symlink
+D) link
+
+Your answer: ___
+
+================================================================================
+
+Question 39: What is the difference between > and >> for redirection?
+
+A) No difference
+B) > overwrites, >> appends
+C) >> overwrites, > appends
+D) > is for stdout, >> is for stderr
+
+Your answer: ___
+
+================================================================================
+
+Question 40: Which environment variable holds the home directory?
+
+A) $USER
+B) $PATH
+C) $HOME
+D) $PWD
+
+Your answer: ___
+
+================================================================================
+
+Question 41: How do you display the first 10 lines of a file?
+
+A) head file
+B) top file
+C) tail file
+D) cat file | head
+
+Your answer: ___
+
+================================================================================
+
+Question 42: Which command searches for a file by name?
+
+A) search
+B) find
+C) locate
+D) Both B and C are correct
+
+Your answer: ___
+
+================================================================================
+
+Question 43: Which command compresses a file with gzip?
+
+A) compress file
+B) zip file
+C) gzip file
+D) tar file
+
+Your answer: ___
+
+================================================================================
+
+Question 44: What does chmod +x script.sh do?
+
+A) Makes the script executable
+B) Deletes the script
+C) Makes the script writable
+D) Makes the script readable
+
+Your answer: ___
+
+================================================================================
+
+Question 45: Which command shows available disk space?
+
+A) df
+B) du
+C) disk
+D) free
+
+Your answer: ___
+
+================================================================================
+
+Question 46: What is the standard temporary directory?
+
+A) /temp
+B) /tmp
+C) /var/tmp
+D) Both B and C are correct
+
+Your answer: ___
+
+================================================================================
+
+Question 47: Which command displays kernel messages?
+
+A) dmesg
+B) kernel
+C) messages
+D) syslog
+
+Your answer: ___
+
+================================================================================
+
+Question 48: Which command restarts the system?
+
+A) restart
+B) reboot
+C) shutdown -r now
+D) Both B and C are correct
+
+Your answer: ___
+
+================================================================================
+
+Question 49: What is a daemon?
+
+A) A background process
+B) A configuration file
+C) A virus
+D) A system user
+
+Your answer: ___
+
+================================================================================
+
+Question 50: What is a best practice when working as an administrator?
+
+A) Disable root
+B) Use sudo for administrative tasks
+C) Always log in as root
+D) Share the root password
+
+Your answer: ___
+
+================================================================================
+END OF FINAL MCQ
+================================================================================
+
+Count your correct answers:
+- 40–50 points (80%+): Excellent! ⭐⭐⭐
+- 30–39 points (60–79%): Good! ⭐⭐
+- 20–29 points (40–59%): Fair ⭐
+- Below 20 points (< 40%): Needs review
+
+================================================================================
+ANSWER KEY
+================================================================================
+
+1. C - pwd
+2. A - rwx
+3. A - root
+4. A - chown
+5. B - SIGTERM (15)
+6. D - /etc/shadow
+7. B - top
+8. B - 1
+9. D - mount
+10. D - /etc/fstab
+11. A - du
+12. B - 127.0.0.1
+13. C - 22
+14. D - netstat or ss
+15. D - apt
+16. C - apt update
+17. B - The first line
+18. D - for i in {1..5}; do echo $i; done
+19. D - cron
+20. A - At 2:00 a.m. every day
+21. C - /var/log
+22. A - journalctl -f
+23. D - A mandatory access control (MAC) system
+24. C - setenforce 0
+25. B - fail2ban
+26. C - SCP or SFTP
+27. C - ~/.ssh/
+28. B - ssh-keygen
+29. B - Nginx
+30. B - /etc/nginx/
+31. C - nginx -t
+32. A - ACME
+33. C - mysqldump
+34. C - start starts now, enable starts at boot
+35. B - /etc/systemd/system.conf
+36. D - systemctl --failed
+37. C - Logical Volume Manager
+38. B - ln -s
+39. B - > overwrites, >> appends
+40. C - $HOME
+41. A - head file
+42. D - Both B and C are correct
+43. C - gzip file
+44. A - Makes the script executable
+45. A - df
+46. D - Both B and C are correct
+47. A - dmesg
+48. D - Both B and C are correct
+49. A - A background process
+50. B - Use sudo for administrative tasks

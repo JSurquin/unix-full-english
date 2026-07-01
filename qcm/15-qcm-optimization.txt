@@ -1,0 +1,79 @@
+================================================================================
+MCQ - System optimization
+Slide module: - (no matching module in this deck) · Scope: not_in_scope
+sysctl/tuning - not in this deck
+Instructions: For each question, enter your answer (A, B, C, or D)
+================================================================================
+
+Question 1: When should you optimize a system?
+
+A) Never; the system optimizes itself
+B) Only when a performance problem is identified
+C) Right from installation
+D) Every month on a fixed schedule
+
+Your answer: ___
+
+================================================================================
+
+Question 2: What does vm.swappiness=10 mean?
+
+A) Minimal swap; prefer RAM
+B) Disable swap completely
+C) Use 10% swap
+D) Aggressive swapping
+
+Your answer: ___
+
+================================================================================
+
+Question 3: How do you apply changes from /etc/sysctl.conf?
+
+A) Reboot the server
+B) sudo sysctl -a
+C) sudo systemctl reload sysctl
+D) sudo sysctl -p
+
+Your answer: ___
+
+================================================================================
+
+Question 4: What is the recommended value for worker_processes in Nginx?
+
+A) 4
+B) auto
+C) 1
+D) 2
+
+Your answer: ___
+
+================================================================================
+
+Question 5: What is the recommended value for innodb_buffer_pool_size in MySQL?
+
+A) 128 MB
+B) 10–20% of RAM
+C) 100% of RAM
+D) 70–80% of available RAM
+
+Your answer: ___
+
+================================================================================
+END OF OPTIMIZATION MCQ (BONUS)
+================================================================================
+
+Scoring:
+- 5/5: Excellent! ⭐⭐⭐
+- 4/5: Very good! ⭐⭐
+- 3/5: Good ⭐
+- Below 3: Review the module
+
+================================================================================
+ANSWER KEY
+================================================================================
+
+1. B - Only when a performance problem is identified
+2. A - Minimal swap; prefer RAM
+3. D - sudo sysctl -p
+4. B - auto
+5. D - 70–80% of available RAM

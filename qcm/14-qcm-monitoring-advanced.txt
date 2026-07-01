@@ -1,0 +1,139 @@
+================================================================================
+MCQ - Advanced monitoring
+Slide module: - (no matching module in this deck) · Scope: not_in_scope
+Not in this deck
+Instructions: For each question, enter your answer (A, B, C, or D)
+================================================================================
+
+Question 1: What is Zabbix’s architecture?
+
+A) A standalone agent on each server
+B) A cron script that collects data
+C) Central server + agents on monitored hosts
+D) A web interface only
+
+Your answer: ___
+
+================================================================================
+
+Question 2: On which port does the Zabbix agent listen by default?
+
+A) 10051
+B) 8080
+C) 3306
+D) 10050
+
+Your answer: ___
+
+================================================================================
+
+Question 3: Which database can be used with Zabbix?
+
+A) PostgreSQL only
+B) SQLite only
+C) MySQL/MariaDB or PostgreSQL
+D) MySQL only
+
+Your answer: ___
+
+================================================================================
+
+Question 4: What are Zabbix’s default login credentials?
+
+A) root / password
+B) Admin / zabbix
+C) zabbix / zabbix
+D) admin / admin
+
+Your answer: ___
+
+================================================================================
+
+Question 5: What is a “trigger” in Zabbix?
+
+A) A system service
+B) A button to start monitoring
+C) A chart type
+D) A rule that fires an alert based on conditions
+
+Your answer: ___
+
+================================================================================
+
+Question 6: What is a template in Zabbix?
+
+A) A preconfigured set of items, triggers, and graphs
+B) A configuration file
+C) An email template
+D) A graphical theme
+
+Your answer: ___
+
+================================================================================
+
+Question 7: In zabbix_agentd.conf, what is the “Server” parameter for?
+
+A) The name of the server to monitor
+B) The server port
+C) The server type (web, db, etc.)
+D) The IP of the Zabbix server allowed to connect
+
+Your answer: ___
+
+================================================================================
+
+Question 8: In Zabbix, what does green “ZBX” in the Availability column mean?
+
+A) The agent is reachable and responding
+B) The agent is in maintenance
+C) The agent is disabled
+D) The agent has an error
+
+Your answer: ___
+
+================================================================================
+
+Question 9: Where do you see the latest collected data for a host?
+
+A) Reports → Data
+B) Configuration → Hosts
+C) Administration → Queue
+D) Monitoring → Latest data
+
+Your answer: ___
+
+================================================================================
+
+Question 10: To receive alerts by email, what must you configure?
+
+A) Nothing; it is automatic
+B) The trigger only
+C) Email media type + assign it to the user + create an action
+D) SMTP server only
+
+Your answer: ___
+
+================================================================================
+END OF ADVANCED MONITORING MCQ
+================================================================================
+
+Scoring:
+- 9–10: Excellent! ⭐⭐⭐
+- 7–8: Very good! ⭐⭐
+- 5–6: Good, needs consolidation ⭐
+- Below 5: Review the module
+
+================================================================================
+ANSWER KEY
+================================================================================
+
+1. C - Central server + agents on monitored hosts
+2. D - 10050
+3. C - MySQL/MariaDB or PostgreSQL
+4. B - Admin / zabbix
+5. D - A rule that fires an alert based on conditions
+6. A - A preconfigured set of items, triggers, and graphs
+7. D - The IP of the Zabbix server allowed to connect
+8. A - The agent is reachable and responding
+9. D - Monitoring → Latest data
+10. C - Email media type + assign it to the user + create an action

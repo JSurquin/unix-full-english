@@ -1,0 +1,133 @@
+================================================================================
+MCQ - Automation & scripts
+Slide module: - (no matching module in this deck) · Scope: not_in_scope
+Bash/cron - not in this deck
+Instructions: For each question, enter your answer (A, B, C, or D)
+================================================================================
+
+Question 1: What is the first line of a bash script?
+
+A) #bash
+B) #!/bin/bash
+C) //bin/bash
+D) <bash>
+
+Your answer: ___
+
+================================================================================
+
+Question 2: How do you make a script executable?
+
+A) run script.sh
+B) execute script.sh
+C) chmod +x script.sh
+D) make executable script.sh
+
+Your answer: ___
+
+================================================================================
+
+Question 3: How do you define a variable in bash?
+
+A) $var=value
+B) set var value
+C) var=value
+D) var = value
+
+Your answer: ___
+
+================================================================================
+
+Question 4: How do you access a variable’s value?
+
+A) &var
+B) var
+C) $var
+D) @var
+
+Your answer: ___
+
+================================================================================
+
+Question 5: Which command schedules recurring tasks?
+
+A) schedule
+B) at
+C) cron
+D) timer
+
+Your answer: ___
+
+================================================================================
+
+Question 6: What does 0 2 * * * mean in a crontab?
+
+A) Every 2 days
+B) On the 2nd of each month
+C) Every 2 minutes
+D) At 2:00 a.m. every day
+
+Your answer: ___
+
+================================================================================
+
+Question 7: How do you view systemd logs in real time?
+
+A) logs -f
+B) logwatch
+C) journalctl -f
+D) tail -f /var/log/syslog
+
+Your answer: ___
+
+================================================================================
+
+Question 8: Which structure creates a loop in bash?
+
+A) repeat ... until
+B) for ... done
+C) loop ... end
+D) while ... endwhile
+
+Your answer: ___
+
+================================================================================
+
+Question 9: How do you redirect both stdout AND stderr to a file?
+
+A) command > file
+B) command 2> file
+C) command >> file
+D) command &> file
+
+Your answer: ___
+
+================================================================================
+
+Question 10: Which command schedules a one-off task?
+
+A) at
+B) schedule
+C) once
+D) cron
+
+Your answer: ___
+
+================================================================================
+END OF MCQ MODULE 8
+================================================================================
+
+================================================================================
+ANSWER KEY
+================================================================================
+
+1. B - #!/bin/bash
+2. C - chmod +x script.sh
+3. C - var=value
+4. C - $var
+5. C - cron
+6. D - At 2:00 a.m. every day
+7. C - journalctl -f
+8. B - for ... done
+9. D - command &> file
+10. A - at

@@ -1,0 +1,139 @@
+================================================================================
+MCQ - Metrics & logs
+Slide module (routeAlias): supervision-analyse · Scope: in_scope
+top, load, journalctl, sar
+Instructions: For each question, enter your answer (A, B, C, or D)
+================================================================================
+
+Question 1: What does a load average of 4.0 mean on a machine with 2 CPUs?
+
+A) The system is overloaded (about twice the runnable work per CPU)
+B) The system is underutilized
+C) The system is behaving normally
+D) The system is at 50% load
+
+Your answer: ___
+
+================================================================================
+
+Question 2: What is the main advantage of htop over top?
+
+A) htop runs on more systems
+B) htop is faster
+C) htop uses fewer resources
+D) htop has a colored, more intuitive interface
+
+Your answer: ___
+
+================================================================================
+
+Question 3: Which command shows which process uses the most disk I/O?
+
+A) top
+B) htop
+C) iostat
+D) iotop
+
+Your answer: ___
+
+================================================================================
+
+Question 4: How do you view nginx error logs with journalctl?
+
+A) journalctl nginx
+B) journalctl --error nginx
+C) journalctl -u nginx -p err
+D) journalctl -e nginx
+
+Your answer: ___
+
+================================================================================
+
+Question 5: Which tool automatically collects system statistics every 10 minutes?
+
+A) htop
+B) vmstat
+C) top
+D) sar (sysstat)
+
+Your answer: ___
+
+================================================================================
+
+Question 6: Which file configures automatic nginx log rotation?
+
+A) /etc/log/rotate/nginx
+B) /var/log/nginx/rotate.conf
+C) /etc/nginx/logrotate.conf
+D) /etc/logrotate.d/nginx
+
+Your answer: ___
+
+================================================================================
+
+Question 7: Which disk usage threshold is generally considered critical?
+
+A) > 95%
+B) > 85%
+C) > 50%
+D) > 70%
+
+Your answer: ___
+
+================================================================================
+
+Question 8: In vmstat, what does it mean if si/so > 0?
+
+A) The disk is slow
+B) The system is using swap (memory pressure)
+C) The CPU is overloaded
+D) The network is saturated
+
+Your answer: ___
+
+================================================================================
+
+Question 9: How do you clean journald logs to keep only the last 7 days?
+
+A) journalctl --vacuum-time=7d
+B) journalctl -r 7d
+C) journalctl --delete-old 7
+D) journalctl --clean 7d
+
+Your answer: ___
+
+================================================================================
+
+Question 10: Which cron syntax runs a script every 5 minutes?
+
+A) */5 * * * * /script.sh
+B) 5 * * * * /script.sh
+C) * 5 * * * /script.sh
+D) 0/5 * * * * /script.sh
+
+Your answer: ___
+
+================================================================================
+END OF MONITORING MCQ
+================================================================================
+
+Scoring:
+- 9–10: Excellent! ⭐⭐⭐
+- 7–8: Very good! ⭐⭐
+- 5–6: Good, needs consolidation ⭐
+- Below 5: Review the module
+
+================================================================================
+ANSWER KEY
+================================================================================
+
+1. A - The system is overloaded (about twice the runnable work per CPU)
+2. D - htop has a colored, more intuitive interface
+3. D - iotop
+4. C - journalctl -u nginx -p err
+5. D - sar (sysstat)
+6. D - /etc/logrotate.d/nginx
+7. B - > 85%
+8. B - The system is using swap (memory pressure)
+9. A - journalctl --vacuum-time=7d
+10. A - */5 * * * * /script.sh

@@ -1,0 +1,133 @@
+================================================================================
+MCQ - Introduction to Unix/Linux
+Slide module (routeAlias): linux-context-compact · Scope: not_in_scope
+Unix history - partial overlap with compact context only
+Instructions: For each question, enter your answer (A, B, C, or D)
+================================================================================
+
+Question 1: Who created Unix?
+
+A) Larry Page and Sergey Brin
+B) Bill Gates and Steve Jobs
+C) Ken Thompson and Dennis Ritchie
+D) Linus Torvalds and Richard Stallman
+
+Your answer: ___
+
+================================================================================
+
+Question 2: What does GNU stand for in GNU/Linux?
+
+A) Great Native Unix
+B) GNU's Not Unix
+C) Global Network Unix
+D) General New Unix
+
+Your answer: ___
+
+================================================================================
+
+Question 3: What is the Linux kernel?
+
+A) The core of the system that manages hardware
+B) A graphical program
+C) A text editor
+D) A web browser
+
+Your answer: ___
+
+================================================================================
+
+Question 4: What does the Unix principle “everything is a file” mean?
+
+A) You can only work with text files
+B) All programs are stored in files
+C) Devices and processes are accessible like files
+D) Everything must be saved to files
+
+Your answer: ___
+
+================================================================================
+
+Question 5: Which Linux distribution is known for server stability?
+
+A) Debian
+B) Windows Server
+C) macOS
+D) MS-DOS
+
+Your answer: ___
+
+================================================================================
+
+Question 6: What is a shell?
+
+A) The interface between the user and the kernel
+B) A type of hard disk
+C) A code editor
+D) A web browser
+
+Your answer: ___
+
+================================================================================
+
+Question 7: What is the main Unix philosophy?
+
+A) Build complex programs that do everything
+B) Build simple programs that do one thing well
+C) Avoid the command line
+D) Always use a graphical interface
+
+Your answer: ___
+
+================================================================================
+
+Question 8: Which company originally created Unix?
+
+A) Microsoft
+B) Google
+C) AT&T Bell Labs
+D) Apple
+
+Your answer: ___
+
+================================================================================
+
+Question 9: What is a Linux distribution?
+
+A) A programming language
+B) A complete operating system based on the Linux kernel
+C) A type of hard disk
+D) Only the Linux kernel
+
+Your answer: ___
+
+================================================================================
+
+Question 10: What is the main advantage of Linux?
+
+A) It is open source and free
+B) It is closed and proprietary
+C) It only runs on Apple hardware
+D) It is very expensive
+
+Your answer: ___
+
+================================================================================
+END OF MCQ MODULE 1
+================================================================================
+
+================================================================================
+ANSWER KEY
+================================================================================
+
+1. C - Ken Thompson and Dennis Ritchie
+2. B - GNU's Not Unix
+3. A - The core of the system that manages hardware
+4. C - Devices and processes are accessible like files
+5. A - Debian
+6. A - The interface between the user and the kernel
+7. B - Build simple programs that do one thing well
+8. C - AT&T Bell Labs
+9. B - A complete operating system based on the Linux kernel
+10. A - It is open source and free

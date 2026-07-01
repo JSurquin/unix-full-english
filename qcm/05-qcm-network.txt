@@ -1,0 +1,253 @@
+================================================================================
+MCQ - Network
+Slide module (routeAlias): reseau · Scope: in_scope
+IP, DNS, routing, ufw
+Instructions: For each question, enter your answer (A, B, C, or D)
+================================================================================
+
+Question 1: Which IP address is localhost?
+
+A) 10.0.0.1
+B) 0.0.0.0
+C) 127.0.0.1
+D) 192.168.1.1
+
+Your answer: ___
+
+================================================================================
+
+Question 2: Which port does SSH use by default?
+
+A) 80
+B) 22
+C) 23
+D) 21
+
+Your answer: ___
+
+================================================================================
+
+Question 3: Which command tests network connectivity?
+
+A) test
+B) check
+C) ping
+D) connect
+
+Your answer: ___
+
+================================================================================
+
+Question 4: Which command shows the IP configuration?
+
+A) ipconfig
+B) ifconfig
+C) ip addr
+D) Both B and C are correct
+
+Your answer: ___
+
+================================================================================
+
+Question 5: Which command shows active connections?
+
+A) netstat or ss
+B) ports
+C) active
+D) connections
+
+Your answer: ___
+
+================================================================================
+
+Question 6: Which tool generates an SSH key pair?
+
+A) ssh-key
+B) keygen
+C) ssh-create
+D) ssh-keygen
+
+Your answer: ___
+
+================================================================================
+
+Question 7: Where are a user’s SSH keys stored?
+
+A) /root/ssh/
+B) /etc/ssh/
+C) /var/ssh/
+D) ~/.ssh/
+
+Your answer: ___
+
+================================================================================
+
+Question 8: Which firewall is easy to use on Ubuntu?
+
+A) firewalld
+B) firewall
+C) iptables
+D) ufw
+
+Your answer: ___
+
+================================================================================
+
+Question 9: How do you copy a file over SSH?
+
+A) ssh-copy
+B) scp
+C) copy
+D) transfer
+
+Your answer: ___
+
+================================================================================
+
+Question 10: Which command resolves a domain name to an IP address?
+
+A) nslookup or dig
+B) lookup
+C) dns
+D) resolve
+
+Your answer: ___
+
+================================================================================
+
+Question 11: What does CIDR notation /24 mean?
+
+A) Mask 255.255.255.0 (256 addresses)
+B) 24 hosts on the network
+C) 24 open ports
+D) 24 subnets
+
+Your answer: ___
+
+================================================================================
+
+Question 12: Which SSH option creates a local tunnel (local forwarding)?
+
+A) -L
+B) -R
+C) -T
+D) -D
+
+Your answer: ___
+
+================================================================================
+
+Question 13: Which file contains DNS servers on Linux?
+
+A) /etc/dns.conf
+B) /etc/resolv.conf
+C) /etc/dns/servers
+D) /etc/network/dns
+
+Your answer: ___
+
+================================================================================
+
+Question 14: Which command synchronizes files over SSH with resume support?
+
+A) rsync
+B) sftp
+C) scp
+D) ssh-sync
+
+Your answer: ___
+
+================================================================================
+
+Question 15: Which SSH key algorithm is recommended in 2025?
+
+A) ECDSA 256
+B) RSA 1024
+C) DSA
+D) Ed25519
+
+Your answer: ___
+
+================================================================================
+
+Question 16: What does the traceroute command do?
+
+A) Shows the network path to a host
+B) Scans open ports
+C) Lists network interfaces
+D) Tests connection speed
+
+Your answer: ___
+
+================================================================================
+
+Question 17: Which tool configures networking on modern Ubuntu (22.04+)?
+
+A) Netplan
+B) network-scripts
+C) wicked
+D) ifconfig
+
+Your answer: ___
+
+================================================================================
+
+Question 18: Which file lets you define local DNS aliases?
+
+A) /etc/dns/local
+B) /etc/aliases
+C) /etc/hosts
+D) /etc/hostname
+
+Your answer: ___
+
+================================================================================
+
+Question 19: What is the range of well-known ports?
+
+A) 1024-49151
+B) 49152-65535
+C) 0-1023
+D) 1-100
+
+Your answer: ___
+
+================================================================================
+
+Question 20: Which service automatically assigns IP addresses to clients?
+
+A) DHCP
+B) DNS
+C) ARP
+D) NAT
+
+Your answer: ___
+
+================================================================================
+END OF MCQ MODULE 7
+================================================================================
+
+================================================================================
+ANSWER KEY
+================================================================================
+
+1. C - 127.0.0.1
+2. B - 22
+3. C - ping
+4. D - Both B and C are correct
+5. A - netstat or ss
+6. D - ssh-keygen
+7. D - ~/.ssh/
+8. D - ufw
+9. B - scp
+10. A - nslookup or dig
+11. A - Mask 255.255.255.0 (256 addresses)
+12. A - -L
+13. B - /etc/resolv.conf
+14. A - rsync
+15. D - Ed25519
+16. A - Shows the network path to a host
+17. A - Netplan
+18. C - /etc/hosts
+19. C - 0-1023
+20. A - DHCP

@@ -1,0 +1,135 @@
+================================================================================
+MCQ - systemd & services
+Slide module (routeAlias): processus-services · Scope: in_scope
+systemctl, units, targets, journalctl
+Instructions: For each question, enter your answer (A, B, C, or D)
+================================================================================
+
+Question 1: Which process is systemd at boot (PID of the init system)?
+
+A) 0
+B) 100
+C) 2
+D) 1
+
+Your answer: ___
+
+================================================================================
+
+Question 2: What is the difference between systemctl start and systemctl enable?
+
+A) They do exactly the same thing
+B) enable starts the service now; start only configures boot
+C) start starts the service now; enable configures boot at next reboot
+D) start requires root; enable does not
+
+Your answer: ___
+
+================================================================================
+
+Question 3: After creating or editing a unit file in /etc/systemd/system/, what must you run first?
+
+A) systemctl restart systemd
+B) systemctl daemon-reload
+C) journalctl --reload
+D) systemctl reload-or-restart
+
+Your answer: ___
+
+================================================================================
+
+Question 4: How do you follow logs for the nginx service in real time?
+
+A) tail -f /var/log/nginx/access.log
+B) systemctl logs nginx -f
+C) dmesg -w nginx
+D) journalctl -u nginx -f
+
+Your answer: ___
+
+================================================================================
+
+Question 5: What does systemctl mask nginx do compared to disable?
+
+A) Blocks ALL starts, including manual systemctl start
+B) Stops nginx once but leaves it enabled at boot
+C) Deletes the nginx unit file from disk
+D) Same as disable - only prevents start at boot
+
+Your answer: ___
+
+================================================================================
+
+Question 6: Which systemd unit type is used for scheduled jobs (cron replacement)?
+
+A) .socket
+B) .mount
+C) .timer
+D) .device
+
+Your answer: ___
+
+================================================================================
+
+Question 7: What does multi-user.target represent?
+
+A) Emergency rescue mode (single user)
+B) Normal server mode without graphical desktop
+C) System shutdown
+D) Desktop mode with graphical environment
+
+Your answer: ___
+
+================================================================================
+
+Question 8: In systemctl status, you see Active: failed. What is the best next step?
+
+A) Run systemctl enable servicename again
+B) Ignore it - failed means the service is stopping gracefully
+C) Delete the unit file and reinstall the package
+D) Check logs with journalctl -u servicename
+
+Your answer: ___
+
+================================================================================
+
+Question 9: Where should administrator-created custom unit files usually be placed?
+
+A) /etc/systemd/system/
+B) /usr/lib/systemd/system/
+C) /etc/init.d/
+D) /var/log/systemd/
+
+Your answer: ___
+
+================================================================================
+
+Question 10: Which command lists services that failed to start?
+
+A) journalctl --failed
+B) systemctl list-failed
+C) systemctl --failed
+D) systemctl status --all-failed
+
+Your answer: ___
+
+================================================================================
+END OF MCQ MODULE 2 - SYSTEMD & SERVICES
+================================================================================
+
+================================================================================
+ANSWER KEY
+================================================================================
+
+1. D - 1 (systemd is PID 1)
+2. C - start starts now; enable configures boot at next reboot
+3. B - systemctl daemon-reload
+4. D - journalctl -u nginx -f
+5. A - Blocks ALL starts, including manual systemctl start
+6. C - .timer
+7. B - Normal server mode without graphical desktop
+8. D - Check logs with journalctl -u servicename
+9. A - /etc/systemd/system/
+10. C - systemctl --failed
+
+Correct-answer distribution: D, C, B, D, A, C, B, D, A, C (no A-A-A or B-B-B pattern)

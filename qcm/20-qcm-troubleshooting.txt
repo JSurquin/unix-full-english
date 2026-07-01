@@ -1,0 +1,133 @@
+================================================================================
+MCQ - Troubleshooting labs
+Slide module (routeAlias): troubleshooting-labs · Scope: in_scope
+Workshop scenarios
+Instructions: For each question, enter your answer (A, B, C, or D)
+================================================================================
+
+Question 1: Scenario A: the system drops to an emergency shell at boot with mount errors. What do you check first?
+
+A) LDAP objectClass definitions
+B) AppArmor profiles for nginx only
+C) SNMP community strings
+D) /etc/fstab and UUIDs with blkid / findmnt
+
+Your answer: ___
+
+================================================================================
+
+Question 2: Scenario B: "No space left on device" but du shows little usage. What helps find deleted-but-still-open files?
+
+A) ping
+B) ldapsearch
+C) lsof +L1
+D) snmpwalk
+
+Your answer: ___
+
+================================================================================
+
+Question 3: Scenario C: a systemd service is in a restart loop. What is the best first diagnostic command?
+
+A) reboot immediately
+B) journalctl -u service_name -b
+C) apt purge the package
+D) disable AppArmor globally
+
+Your answer: ___
+
+================================================================================
+
+Question 4: Scenario D: getent passwd bob works but SSH login for bob fails. What layer is likely misconfigured?
+
+A) SNMP agentAddress
+B) fstab mount options
+C) NSS only - passwords are never checked
+D) PAM stack for SSH (e.g. common-account / pam_ldap order)
+
+Your answer: ___
+
+================================================================================
+
+Question 5: Scenario E: snmpwalk times out. What should you verify on the agent host?
+
+A) snmpd listening on UDP 161, community string, firewall, and agentAddress
+B) cron tab syntax
+C) Only /etc/passwd
+D) LUKS encryption headers
+
+Your answer: ___
+
+================================================================================
+
+Question 6: Before the trainer breaks the lab VM for a scenario, what safety step is mandatory?
+
+A) Delete all logs
+B) Take a VM snapshot
+C) Uninstall slapd
+D) Disable sudo for all users
+
+Your answer: ___
+
+================================================================================
+
+Question 7: Which command helps verify fstab entries before rebooting?
+
+A) mount -a or findmnt --verify
+B) aa-complain /etc/fstab
+C) snmpget localhost
+D) ldapadd -f fstab
+
+Your answer: ___
+
+================================================================================
+
+Question 8: For boot-time errors, which journalctl option shows the current boot with explanations?
+
+A) journalctl -k --no-pager | grep LDAP
+B) journalctl -u snmpd only
+C) journalctl --vacuum-time=7d
+D) journalctl -xb
+
+Your answer: ___
+
+================================================================================
+
+Question 9: A service fails after enabling AppArmor enforce on its profile. Where do you look for DENIED lines?
+
+A) snmpd.conf
+B) /etc/shadow
+C) nsswitch.conf
+D) journalctl -k | grep -i apparmor
+
+Your answer: ___
+
+================================================================================
+
+Question 10: During the debrief, what is the most important distinction to document?
+
+A) The color of the terminal prompt
+B) The exact keyboard shortcut used
+C) How many times you rebooted
+D) Root cause vs symptom - and the smallest safe fix
+
+Your answer: ___
+
+================================================================================
+END OF TROUBLESHOOTING MCQ
+================================================================================
+
+================================================================================
+ANSWER KEY
+================================================================================
+
+1. D - /etc/fstab and UUIDs with blkid / findmnt
+2. C - lsof +L1
+3. B - journalctl -u service_name -b
+4. D - PAM stack for SSH (e.g. common-account / pam_ldap order)
+5. A - snmpd listening on UDP 161, community string, firewall, and agentAddress
+6. B - Take a VM snapshot
+7. A - mount -a or findmnt --verify
+8. D - journalctl -xb
+9. D - journalctl -k | grep -i apparmor
+10. D - Root cause vs symptom - and the smallest safe fix

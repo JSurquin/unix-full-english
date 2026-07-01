@@ -1,0 +1,133 @@
+================================================================================
+MCQ - Packages
+Slide module: - (no matching module in this deck) · Scope: not_in_scope
+apt/dpkg - not in this deck
+Instructions: For each question, enter your answer (A, B, C, or D)
+================================================================================
+
+Question 1: Which package manager is used on Ubuntu?
+
+A) yum
+B) apt
+C) pacman
+D) dnf
+
+Your answer: ___
+
+================================================================================
+
+Question 2: Which command updates the package list?
+
+A) apt sync
+B) apt refresh
+C) apt update
+D) apt upgrade
+
+Your answer: ___
+
+================================================================================
+
+Question 3: How do you install a package?
+
+A) apt get package
+B) apt download package
+C) apt add package
+D) apt install package
+
+Your answer: ___
+
+================================================================================
+
+Question 4: Which command searches for a package?
+
+A) apt search
+B) apt query
+C) apt find
+D) apt locate
+
+Your answer: ___
+
+================================================================================
+
+Question 5: How do you remove a package and its configuration?
+
+A) apt remove
+B) apt uninstall
+C) apt delete
+D) apt purge
+
+Your answer: ___
+
+================================================================================
+
+Question 6: Which package manager is used on Fedora/RHEL?
+
+A) yum
+B) dnf
+C) apt
+D) Both A and B (dnf replaces yum)
+
+Your answer: ___
+
+================================================================================
+
+Question 7: What does apt autoremove do?
+
+A) Clears the cache
+B) Removes all packages
+C) Removes unused packages
+D) Removes old versions
+
+Your answer: ___
+
+================================================================================
+
+Question 8: What is a PPA?
+
+A) A personal repository (Personal Package Archive)
+B) A package type
+C) A file format
+D) A package manager
+
+Your answer: ___
+
+================================================================================
+
+Question 9: How do you clean downloaded package cache?
+
+A) apt flush
+B) apt delete-cache
+C) apt clear
+D) apt clean
+
+Your answer: ___
+
+================================================================================
+
+Question 10: What is Snap?
+
+A) A backup tool
+B) A traditional package manager
+C) A universal containerized package format
+D) A text editor
+
+Your answer: ___
+
+================================================================================
+END OF MCQ MODULE 3
+================================================================================
+
+================================================================================
+ANSWER KEY
+================================================================================
+
+1. B - apt
+2. C - apt update
+3. D - apt install package
+4. A - apt search
+5. D - apt purge
+6. D - Both A and B (dnf replaces yum)
+7. C - Removes unused packages
+8. A - A personal repository (Personal Package Archive)
+9. D - apt clean
+10. C - A universal containerized package format

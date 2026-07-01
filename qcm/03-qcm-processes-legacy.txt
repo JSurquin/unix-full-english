@@ -1,0 +1,133 @@
+================================================================================
+MCQ - Processes (legacy mix)
+Slide module: - (no matching module in this deck) · Scope: not_in_scope
+Superseded for systemd by 03-qcm-systemd-services.txt
+Instructions: For each question, enter your answer (A, B, C, or D)
+================================================================================
+
+Question 1: What is the PID of the first system process?
+
+A) 100
+B) 1
+C) 0
+D) 10
+
+Your answer: ___
+
+================================================================================
+
+Question 2: Which command shows processes in real time?
+
+A) top
+B) ps
+C) htop
+D) pgrep
+
+Your answer: ___
+
+================================================================================
+
+Question 3: Which signal does kill send by default?
+
+A) SIGHUP (1)
+B) SIGTERM (15)
+C) SIGINT (2)
+D) SIGKILL (9)
+
+Your answer: ___
+
+================================================================================
+
+Question 4: How do you start a service with systemd?
+
+A) start service
+B) service start
+C) systemctl start service
+D) systemd start service
+
+Your answer: ___
+
+================================================================================
+
+Question 5: What is the difference between start and enable?
+
+A) They do the same thing
+B) enable starts now, start at boot
+C) None
+D) start starts now, enable at boot
+
+Your answer: ___
+
+================================================================================
+
+Question 6: Where do you view logs for a systemd service?
+
+A) journalctl -u service
+B) /var/log/service.log
+C) dmesg
+D) systemctl logs service
+
+Your answer: ___
+
+================================================================================
+
+Question 7: How do you change a process priority?
+
+A) top
+B) nice or renice
+C) priority
+D) ps
+
+Your answer: ___
+
+================================================================================
+
+Question 8: What does Ctrl+Z do?
+
+A) Restarts the process
+B) Suspends the process
+C) Exits the program
+D) Kills the process
+
+Your answer: ___
+
+================================================================================
+
+Question 9: How do you list services that have failed?
+
+A) systemctl --failed
+B) systemctl list-failed
+C) systemctl failed
+D) journalctl --failed
+
+Your answer: ___
+
+================================================================================
+
+Question 10: What is a zombie process?
+
+A) A malicious process
+B) A process without a PID
+C) A process that uses a lot of CPU
+D) A terminated process not yet reaped by its parent
+
+Your answer: ___
+
+================================================================================
+END OF MCQ MODULE 6
+================================================================================
+
+================================================================================
+ANSWER KEY
+================================================================================
+
+1. B - 1
+2. A - top
+3. B - SIGTERM (15)
+4. C - systemctl start service
+5. D - start starts now, enable at boot
+6. A - journalctl -u service
+7. B - nice or renice
+8. B - Suspends the process
+9. A - systemctl --failed
+10. D - A terminated process not yet reaped by its parent

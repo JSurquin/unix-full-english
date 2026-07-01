@@ -1,0 +1,133 @@
+================================================================================
+MCQ - SNMP
+Slide module (routeAlias): snmp-monitoring · Scope: in_scope
+snmpd, OID, walk/get
+Instructions: For each question, enter your answer (A, B, C, or D)
+================================================================================
+
+Question 1: What runs on each monitored Linux server to answer SNMP queries?
+
+A) snmpget
+B) snmpd (the SNMP agent)
+C) journalctl
+D) snmpwalk
+
+Your answer: ___
+
+================================================================================
+
+Question 2: On which port does the SNMP agent listen by default?
+
+A) UDP 514
+B) UDP 161
+C) TCP 443
+D) TCP 22
+
+Your answer: ___
+
+================================================================================
+
+Question 3: What is an OID?
+
+A) A type of log rotation config
+B) A firewall rule for SNMP traffic
+C) A dotted-number address that identifies one metric in the MIB tree
+D) The SNMP community password
+
+Your answer: ___
+
+================================================================================
+
+Question 4: What does a MIB provide?
+
+A) A mapping from numeric OIDs to human-readable names
+B) Encrypted SNMPv3 keys only
+C) A backup of /etc/snmp/
+D) A replacement for journalctl
+
+Your answer: ___
+
+================================================================================
+
+Question 5: What is the difference between snmpget and snmpwalk?
+
+A) snmpget replaces snmpd on the agent
+B) There is no difference
+C) snmpget reads one OID; snmpwalk traverses a subtree
+D) snmpwalk is only for SNMPv3
+
+Your answer: ___
+
+================================================================================
+
+Question 6: In SNMPv2c, how is access controlled in the lab?
+
+A) Kerberos tickets
+B) TLS client certificates
+C) Community strings (shared password in cleartext)
+D) SSH keys
+
+Your answer: ___
+
+================================================================================
+
+Question 7: Which SNMP version is recommended outside an isolated lab?
+
+A) SNMPv2c with community public
+B) SNMPv3 with authentication and privacy (authPriv)
+C) Any version; they are equally secure
+D) SNMPv1
+
+Your answer: ___
+
+================================================================================
+
+Question 8: In snmpd.conf, what does rocommunity mean?
+
+A) Read-only community string allowed to poll the agent
+B) Rotate community strings every hour
+C) Disable all SNMP polling
+D) Root-only community for write access
+
+Your answer: ___
+
+================================================================================
+
+Question 9: SNMP is best described as:
+
+A) A log aggregation tool like rsyslog
+B) A way to read structured metrics (CPU, disk, uptime) without SSH
+C) A disk encryption standard
+D) A user authentication protocol
+
+Your answer: ___
+
+================================================================================
+
+Question 10: What is an SNMP trap?
+
+A) A firewall block on UDP 161
+B) The agent pushing an alert to the manager (instead of waiting to be polled)
+C) A failed snmpwalk command
+D) A type of LDAP bind failure
+
+Your answer: ___
+
+================================================================================
+END OF SNMP MCQ
+================================================================================
+
+================================================================================
+ANSWER KEY
+================================================================================
+
+1. B - snmpd (the SNMP agent)
+2. B - UDP 161
+3. C - A dotted-number address that identifies one metric in the MIB tree
+4. A - A mapping from numeric OIDs to human-readable names
+5. C - snmpget reads one OID; snmpwalk traverses a subtree
+6. C - Community strings (shared password in cleartext)
+7. B - SNMPv3 with authentication and privacy (authPriv)
+8. A - Read-only community string allowed to poll the agent
+9. B - A way to read structured metrics (CPU, disk, uptime) without SSH
+10. B - The agent pushing an alert to the manager (instead of waiting to be polled)

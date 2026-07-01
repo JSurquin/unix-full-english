@@ -1,0 +1,133 @@
+================================================================================
+MCQ - OpenLDAP
+Slide module (routeAlias): openldap-auth · Scope: in_scope
+LDAP, NSS, PAM
+Instructions: For each question, enter your answer (A, B, C, or D)
+================================================================================
+
+Question 1: What problem does OpenLDAP solve in a multi-server environment?
+
+A) Centralizing user accounts so every server does not keep its own copy
+B) Encrypting all disk partitions automatically
+C) Replacing systemd with a directory service
+D) Replacing the need for firewalls
+
+Your answer: ___
+
+================================================================================
+
+Question 2: What does DN stand for in LDAP?
+
+A) Directory Node
+B) Domain Name
+C) Distinguished Name
+D) Default Namespace
+
+Your answer: ___
+
+================================================================================
+
+Question 3: Which daemon provides the LDAP server on Ubuntu?
+
+A) ldapd
+B) slapd
+C) sshd
+D) nslcd
+
+Your answer: ___
+
+================================================================================
+
+Question 4: Which file tells NSS where to look up users (files vs LDAP)?
+
+A) /etc/ldap.conf
+B) /etc/nslcd.conf
+C) /etc/nsswitch.conf
+D) /etc/pam.d/common-auth
+
+Your answer: ___
+
+================================================================================
+
+Question 5: Which subsystem checks the password when a user logs in?
+
+A) systemd
+B) AppArmor
+C) NSS
+D) PAM
+
+Your answer: ___
+
+================================================================================
+
+Question 6: Which client-side daemon connects to OpenLDAP for NSS/PAM lookups?
+
+A) slapd
+B) sshd
+C) nslcd
+D) ldapsearch
+
+Your answer: ___
+
+================================================================================
+
+Question 7: What is the default LDAP port (cleartext)?
+
+A) 389 TCP
+B) 22 TCP
+C) 636 UDP
+D) 161 UDP
+
+Your answer: ___
+
+================================================================================
+
+Question 8: How do you read a DN (Distinguished Name)?
+
+A) From left to right only
+B) Random order depending on the server
+C) Alphabetically by attribute name
+D) From right to left, like a path in the tree
+
+Your answer: ___
+
+================================================================================
+
+Question 9: Which objectClass adds Unix login fields (uidNumber, homeDirectory, loginShell)?
+
+A) posixGroup only
+B) inetOrgPerson only
+C) organizationalUnit
+D) posixAccount
+
+Your answer: ___
+
+================================================================================
+
+Question 10: Which command imports entries from an LDIF file into the directory?
+
+A) ldapsearch
+B) ldapmodify
+C) ldapadd
+D) ldapimport
+
+Your answer: ___
+
+================================================================================
+END OF OPENLDAP MCQ
+================================================================================
+
+================================================================================
+ANSWER KEY
+================================================================================
+
+1. A - Centralizing user accounts so every server does not keep its own copy
+2. C - Distinguished Name
+3. B - slapd
+4. C - /etc/nsswitch.conf
+5. D - PAM
+6. C - nslcd
+7. A - 389 TCP
+8. D - From right to left, like a path in the tree
+9. D - posixAccount
+10. C - ldapadd

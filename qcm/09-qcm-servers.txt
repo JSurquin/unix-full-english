@@ -1,0 +1,133 @@
+================================================================================
+MCQ - Server services
+Slide module: - (no matching module in this deck) · Scope: not_in_scope
+nginx/Apache/Docker - not in this deck
+Instructions: For each question, enter your answer (A, B, C, or D)
+================================================================================
+
+Question 1: Which web server is known for its performance?
+
+A) Tomcat
+B) Nginx
+C) IIS
+D) Apache
+
+Your answer: ___
+
+================================================================================
+
+Question 2: Where is Nginx configuration on Ubuntu?
+
+A) /etc/nginx/
+B) /etc/apache2/
+C) /usr/local/nginx/
+D) /var/www/nginx/
+
+Your answer: ___
+
+================================================================================
+
+Question 3: How do you test Nginx configuration?
+
+A) systemctl test nginx
+B) nginx test
+C) nginx -t
+D) test nginx
+
+Your answer: ___
+
+================================================================================
+
+Question 4: Which command backs up a MySQL database?
+
+A) mysql-export
+B) backup-mysql
+C) mysqldump
+D) mysql-backup
+
+Your answer: ___
+
+================================================================================
+
+Question 5: Which port does MySQL use by default?
+
+A) 5432
+B) 27017
+C) 3306
+D) 1433
+
+Your answer: ___
+
+================================================================================
+
+Question 6: What is a reverse proxy?
+
+A) A type of firewall
+B) A backup tool
+C) An intermediate server in front of applications
+D) A proxy that reverses data
+
+Your answer: ___
+
+================================================================================
+
+Question 7: How do you obtain a free SSL certificate?
+
+A) Let's Encrypt (Certbot)
+B) Purchase from a CA
+C) Generate with OpenSSL
+D) Both A and C are correct
+
+Your answer: ___
+
+================================================================================
+
+Question 8: Which protocol transfers files securely?
+
+A) FTP
+B) Telnet
+C) HTTP
+D) SCP/SFTP
+
+Your answer: ___
+
+================================================================================
+
+Question 9: What is Docker?
+
+A) A containerization platform
+B) A web server
+C) A package manager
+D) A text editor
+
+Your answer: ___
+
+================================================================================
+
+Question 10: How do you start all services defined in a docker-compose file?
+
+A) docker run
+B) docker-compose up
+C) compose start
+D) docker start
+
+Your answer: ___
+
+================================================================================
+END OF MCQ MODULE 10
+================================================================================
+
+================================================================================
+ANSWER KEY
+================================================================================
+
+1. B - Nginx
+2. A - /etc/nginx/
+3. C - nginx -t
+4. C - mysqldump
+5. C - 3306
+6. C - An intermediate server in front of applications
+7. D - Both A and C are correct
+8. D - SCP/SFTP
+9. A - A containerization platform
+10. B - docker-compose up
